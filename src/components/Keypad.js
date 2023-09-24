@@ -2,7 +2,12 @@
 
 function Keypad (){
     return (
-        <div></div>
+        <div>
+        <form>
+        <input type="password" 
+         onChange={()=>console.log("Entering password...")} />
+        </form>
+        </div>
     )
 }
 
